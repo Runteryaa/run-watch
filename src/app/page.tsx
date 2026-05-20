@@ -6,13 +6,25 @@ export default function Home() {
     <>
       <nav className="navbar">
         <Link href="/" className="nav-logo">RunWatch</Link>
-        <div className="nav-links">
+        <div className="nav-links" style={{ display: 'flex', alignItems: 'center' }}>
           <Link href="/" className="nav-link">Home</Link>
           <Link href="/series" className="nav-link">Series</Link>
+          <div className="heart-container" style={{ position: 'relative', marginLeft: '10px' }}>
+            <span className="heart-icon">❤</span>
+          </div>
         </div>
       </nav>
 
       <main className="main-content">
+        <section className="hero" style={{ textAlign: 'center', marginBottom: '4rem' }}>
+          <h1 style={{ fontSize: '3.5rem', fontWeight: '900', background: 'linear-gradient(to right, #fff, var(--romantic))', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
+            Hoş geldin aşkımmm ❤️
+          </h1>
+          <p style={{ margin: '1rem auto 0', color: 'var(--text-muted)', fontSize: '1.2rem' }}>
+            Senin için hazırladığım küçük sinemaya hoş geldin. İyi seyirler dilerim bitanem! ✨
+          </p>
+        </section>
+
         {seriesData.map((series) => (
           <section key={series.id} style={{ marginBottom: '4rem' }}>
             <h2 className="section-title">{series.title}</h2>

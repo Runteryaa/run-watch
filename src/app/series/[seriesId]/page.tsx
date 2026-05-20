@@ -22,9 +22,13 @@ export default async function SeriesDetailPage({ params }: PageProps) {
     <>
       <nav className="navbar">
         <Link href="/" className="nav-logo">RunWatch</Link>
-        <div className="nav-links">
+        <div className="nav-links" style={{ display: 'flex', alignItems: 'center' }}>
           <Link href="/" className="nav-link">Home</Link>
           <Link href="/series" className="nav-link">Series</Link>
+          <div className="heart-container" style={{ position: 'relative', marginLeft: '10px' }}>
+            <span className="heart-icon">❤</span>
+            <div className="easter-egg-text">Dilediğin kadar izle, her zaman yanındayım ❤️</div>
+          </div>
         </div>
       </nav>
 

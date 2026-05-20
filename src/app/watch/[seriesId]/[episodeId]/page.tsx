@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { seriesData } from "@/data/series";
+import RomanticMessage from "./RomanticMessage";
 
 export const runtime = 'edge';
 
@@ -25,7 +26,6 @@ export default async function WatchPage({ params }: PageProps) {
   const prevEpisode = series.episodes[episodeIndex - 1];
   const nextEpisode = series.episodes[episodeIndex + 1];
 
-  // Orijinal İngilizce isimleri eşleştirelim (Veri modelini genişletmeden basit bir harita kullanıyoruz)
   const englishTitles: Record<string, string> = {
     "s01e01": "Word to the Wise",
     "s01e02": "The Break-In",
@@ -43,9 +43,12 @@ export default async function WatchPage({ params }: PageProps) {
     <>
       <nav className="navbar">
         <Link href="/" className="nav-logo">RunWatch</Link>
-        <div className="nav-links">
+        <div className="nav-links" style={{ display: 'flex', alignItems: 'center' }}>
           <Link href="/" className="nav-link">Home</Link>
           <Link href="/series" className="nav-link">Series</Link>
+          <div className="heart-container" style={{ position: 'relative', marginLeft: '10px' }}>
+            <span className="heart-icon">❤</span>
+          </div>
         </div>
       </nav>
 
@@ -106,6 +109,10 @@ export default async function WatchPage({ params }: PageProps) {
                     ({englishTitle})
                 </span>
             </h1>
+            
+            {/* Dynamic Randomized Romantic Message */}
+            <RomanticMessage />
+
             <p style={{ fontSize: '1.2rem', color: 'var(--text-muted)', maxWidth: '800px' }}>
               {episode.description}
             </p>
