@@ -2,6 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { seriesData } from "@/data/series";
 
+export const runtime = 'edge';
+
 interface PageProps {
   params: Promise<{
     seriesId: string;
