@@ -83,6 +83,7 @@ export default async function WatchPage({ params }: PageProps) {
             >
               <source src={episode.videoUrl} type="video/mp4" />
               <track
+                key={episode.subtitleUrl}
                 src={episode.subtitleUrl}
                 kind="subtitles"
                 srcLang="tr"
