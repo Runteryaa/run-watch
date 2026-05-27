@@ -89,6 +89,35 @@ export const seriesData: Series[] = [
         thumbnailUrl: "https://ichef.bbci.co.uk/images/ic/976x549/p0n21r5w.jpg",
       }
     ]
+  },
+  {
+    id: "bridgerton-s02",
+    title: "Bridgerton (2. Sezon)",
+    description: "Bridgerton ailesi, toplum hayatının yeni bir sosyal sezonuyla karşı karşıya. Anthony Bridgerton, kendine uygun bir eş arayışına girerken aşk, ailevi sorumluluklar ve tutku dolu bir hikaye onu bekliyor.",
+    coverImage: "https://image.tmdb.org/t/p/original/5j8p0Jv6v9F570t6Dg621H0W2O3.jpg", // Örnek bir kapak görseli
+    episodes: [
+      {
+        id: "s02e01",
+        title: "S02E01: Bir Arı Soktu",
+        description: "Anthony, Bridgerton ailesinin geleneksel sorumluluklarını yerine getirmek amacıyla uygun bir eş bulmaya kararlıdır. Bu sırada Kate Sharma, Londra'ya geri döner.",
+        videoUrl: "https://pub-dacb19e6b2f24db4b98083414f711d1b.r2.dev/converted_1.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton1.vtt`,
+      },
+      {
+        id: "s02e02",
+        title: "S02E02: Koş",
+        description: "Anthony ve Edwina arasındaki çekim artarken, Kate kardeşinin geleceği için endişelenmektedir. Bridgerton ailesi kırsaldaki malikanelerine bir gezi düzenler.",
+        videoUrl: "https://pub-dacb19e6b2f24db4b98083414f711d1b.r2.dev/converted_2.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton2.vtt`,
+      },
+      {
+        id: "s02e03",
+        title: "S02E03: Takıntılar",
+        description: "Geleneksel av partisi sırasında gerilim tırmanır. Anthony'nin Kate'e olan ilgisi, hem kendi duygularıyla hem de çevresindeki beklentilerle çatışmasına neden olur.",
+        videoUrl: "BURAYA_VIDEO_URL_GELECEK",
+        subtitleUrl: `${RAW_BASE}bridgerton3.vtt`,
+      }
+    ]
   }
 ];
 
