@@ -94,7 +94,7 @@ export const seriesData: Series[] = [
     id: "bridgerton-s02",
     title: "Bridgerton (2. Sezon)",
     description: "Bridgerton ailesi, toplum hayatının yeni bir sosyal sezonuyla karşı karşıya. Anthony Bridgerton, kendine uygun bir eş arayışına girerken aşk, ailevi sorumluluklar ve tutku dolu bir hikaye onu bekliyor.",
-    coverImage: "https://image.tmdb.org/t/p/original/5j8p0Jv6v9F570t6Dg621H0W2O3.jpg", // Örnek bir kapak görseli
+    coverImage: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
     episodes: [
       {
         id: "s02e01",
