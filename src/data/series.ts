@@ -100,14 +100,14 @@ export const seriesData: Series[] = [
         id: "s02e01",
         title: "S02E01: Bir Arı Soktu",
         description: "Anthony, Bridgerton ailesinin geleneksel sorumluluklarını yerine getirmek amacıyla uygun bir eş bulmaya kararlıdır. Bu sırada Kate Sharma, Londra'ya geri döner.",
-        videoUrl: "https://pub-dacb19e6b2f24db4b98083414f711d1b.r2.dev/converted_1.mp4",
+        videoUrl: "https://runwatch.dpdns.org/converted_1.mp4",
         subtitleUrl: `${RAW_BASE}bridgerton1.vtt`,
       },
       {
         id: "s02e02",
         title: "S02E02: Koş",
         description: "Anthony ve Edwina arasındaki çekim artarken, Kate kardeşinin geleceği için endişelenmektedir. Bridgerton ailesi kırsaldaki malikanelerine bir gezi düzenler.",
-        videoUrl: "https://pub-dacb19e6b2f24db4b98083414f711d1b.r2.dev/converted_2.mp4",
+        videoUrl: "https://runwatch.dpdns.org/converted_2.mp4",
         subtitleUrl: `${RAW_BASE}bridgerton2.vtt`,
       },
       {
