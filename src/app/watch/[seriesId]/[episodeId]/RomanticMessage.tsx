@@ -28,7 +28,13 @@ const romanticMessages = [
   "seninle izleyince en sıkıcı şey bile dünyanın en iyi seyi olur askim",
   "izle sen izle ben seni dusunuyom",
   "bana mesaj atmayi unutma askim ozlerim seni yoksa",
-  "DUR BEBİK BAKİM SANA"
+  "DUR BEBİK BAKİM SANA",
+  "hehehehehehehehehehehehehehehehehehehe",
+  "seni cok sebom",
+  "lezizo askim",
+  "😋😋😋😋😋😋😋😋😋😋😋😋😋😋😋",
+  "ne izlion bebik",
+  ""
 ];
 
 export default function RomanticMessage() {
