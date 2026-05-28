@@ -102,6 +102,7 @@ export const seriesData: Series[] = [
         description: "Anthony, Bridgerton ailesinin geleneksel sorumluluklarını yerine getirmek amacıyla uygun bir eş bulmaya kararlıdır. Bu sırada Kate Sharma, Londra'ya geri döner.",
         videoUrl: "https://runwatch.dpdns.org/converted_1.mp4",
         subtitleUrl: `${RAW_BASE}bridgerton1.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
       },
       {
         id: "s02e02",
@@ -109,14 +110,56 @@ export const seriesData: Series[] = [
         description: "Anthony ve Edwina arasındaki çekim artarken, Kate kardeşinin geleceği için endişelenmektedir. Bridgerton ailesi kırsaldaki malikanelerine bir gezi düzenler.",
         videoUrl: "https://runwatch.dpdns.org/converted_2.mp4",
         subtitleUrl: `${RAW_BASE}bridgerton2.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
       },
       {
         id: "s02e03",
         title: "S02E03: Takıntılar",
         description: "Geleneksel av partisi sırasında gerilim tırmanır. Anthony'nin Kate'e olan ilgisi, hem kendi duygularıyla hem de çevresindeki beklentilerle çatışmasına neden olur.",
-        videoUrl: "BURAYA_VIDEO_URL_GELECEK",
+        videoUrl: "https://runwatch.dpdns.org/converted_3.mp4",
         subtitleUrl: `${RAW_BASE}bridgerton3.vtt`,
-      }
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      },
+      {
+        id: "s02e04",
+        title: "S02E04: Koş",
+        description: "Anthony ve Edwina arasındaki çekim artarken, Kate kardeşinin geleceği için endişelenmektedir. Bridgerton ailesi kırsaldaki malikanelerine bir gezi düzenler.",
+        videoUrl: "https://runwatch.dpdns.org/converted_4.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton2.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      },
+      {
+        id: "s02e05",
+        title: "S02E05: Koş",
+        description: "Anthony ve Edwina arasındaki çekim artarken, Kate kardeşinin geleceği için endişelenmektedir. Bridgerton ailesi kırsaldaki malikanelerine bir gezi düzenler.",
+        videoUrl: "https://runwatch.dpdns.org/converted_5.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton2.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      },
+      {
+        id: "s02e06",
+        title: "S02E06: Koş",
+        description: "Anthony ve Edwina arasındaki çekim artarken, Kate kardeşinin geleceği için endişelenmektedir. Bridgerton ailesi kırsaldaki malikanelerine bir gezi düzenler.",
+        videoUrl: "https://runwatch.dpdns.org/converted_6.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton2.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      },
+      {
+        id: "s02e07",
+        title: "S02E07: Koş",
+        description: "Anthony ve Edwina arasındaki çekim artarken, Kate kardeşinin geleceği için endişelenmektedir. Bridgerton ailesi kırsaldaki malikanelerine bir gezi düzenler.",
+        videoUrl: "https://runwatch.dpdns.org/converted_7.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton2.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      },
+      {
+        id: "s02e08",
+        title: "S02E08: Koş",
+        description: "Anthony ve Edwina arasındaki çekim artarken, Kate kardeşinin geleceği için endişelenmektedir. Bridgerton ailesi kırsaldaki malikanelerine bir gezi düzenler.",
+        videoUrl: "https://runwatch.dpdns.org/converted_8.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton2.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      },
     ]
   }
 ];
