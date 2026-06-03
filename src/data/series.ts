@@ -91,8 +91,8 @@ export const seriesData: Series[] = [
     ]
   },
   {
-    id: "bridgerton-s02",
-    title: "Bridgerton (2. Sezon)",
+    id: "bridgerton",
+    title: "Bridgerton",
     description: "Bridgerton ailesi, toplum hayatının yeni bir sosyal sezonuyla karşı karşıya. Anthony Bridgerton, kendine uygun bir eş arayışına girerken aşk, ailevi sorumluluklar ve tutku dolu bir hikaye onu bekliyor.",
     coverImage: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
     episodes: [
@@ -160,6 +160,70 @@ export const seriesData: Series[] = [
         subtitleUrl: `${RAW_BASE}bridgerton8.vtt`,
         thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
       },
+      {
+        id: "s03e01",
+        title: "S03E01",
+        description: "1",
+        videoUrl: "https://runwatch.qzz.io/Bridgerton.S03E01.720p.NF.WEBRip.x264-GalaxyTV.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton30.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      },
+      {
+        id: "s03e02",
+        title: "S03E02",
+        description: "2",
+        videoUrl: "https://runwatch.qzz.io/Bridgerton.S03E02.720p.NF.WEBRip.x264-GalaxyTV.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton30.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      },
+      {
+        id: "s03e03",
+        title: "S03E03",
+        description: "3",
+        videoUrl: "https://runwatch.qzz.io/Bridgerton.S03E03.720p.NF.WEBRip.x264-GalaxyTV.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton30.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      },
+      {
+        id: "s03e04",
+        title: "S03E04",
+        description: "4",
+        videoUrl: "https://runwatch.qzz.io/Bridgerton.S03E04.720p.NF.WEBRip.x264-GalaxyTV.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton30.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      },
+      {
+        id: "s03e05",
+        title: "S03E05",
+        description: "5",
+        videoUrl: "https://runwatch.qzz.io/Bridgerton.S03E05.720p.NF.WEBRip.x264-GalaxyTV.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton30.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      },
+      {
+        id: "s03e06",
+        title: "S03E06",
+        description: "6",
+        videoUrl: "https://runwatch.qzz.io/Bridgerton.S03E06.720p.NF.WEBRip.x264-GalaxyTV.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton30.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      },
+      {
+        id: "s03e07",
+        title: "S03E07",
+        description: "7",
+        videoUrl: "https://runwatch.qzz.io/Bridgerton.S03E07.720p.NF.WEBRip.x264-GalaxyTV.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton30.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      },
+      {
+        id: "s03e08",
+        title: "S03E08",
+        description: "8",
+        videoUrl: "https://runwatch.qzz.io/Bridgerton.S03E08.720p.NF.WEBRip.x264-GalaxyTV.mp4",
+        subtitleUrl: `${RAW_BASE}bridgerton30.vtt`,
+        thumbnailUrl: "https://static0.colliderimages.com/wordpress/wp-content/uploads/2025/12/bridgerton-s4-poster-sophie-benedict-1.jpeg?q=70&fit=crop&w=1232&h=693&dpr=1",
+      }
     ]
   }
 ];
