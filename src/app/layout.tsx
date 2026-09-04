@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Script from "next/navigation";
 
 export const metadata: Metadata = {
-  title: "RunWatch | Series Tracker",
-  description: "Watch your favorite series with custom subtitles.",
+  title: "❤️",
+  description: "Rana için...",
 };
 
 export default function RootLayout({
